@@ -1,0 +1,26 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Secret files (.env, .idea, *iml)
+.env
+*.env
+
+# IDE dosyaları
+.idea/
+*.iml
+
+# Alembic ayarları ve migration dosyaları (kişiseldir ve isteğe bağlıdır)
+alembic.ini
+env.py
+script.py.mako
+
+# Diğer kişisel ayar dosyaları
+.xml
+*.xml
+material_theme_project_new.xml
+misc.xml
+modules.xml
+profiles_settings.xml
+Project_Default.xml
+vcs.xml

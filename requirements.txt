@@ -1,0 +1,21 @@
+bcrypt==4.0.1 # Parola şifreleme ve güvenli bir şekilde şifreleme yapmak için kullanılır.
+cryptography==43.0.0 # Veri şifreleme, anahtar yönetimi ve dijital imzalar gibi güvenlik işlemleri için kullanılır.
+fastapi==0.112.2
+psycopg2-binary==2.9.9 # PostgreSQL veritabanı ile Python arasında bağlantı sağlar.
+python-jose==3.3.0 # JSON Web Token (JWT) ile çalışmak için kullanılır. Kimlik doğrulama ve yetkilendirme için yaygın kullanılır.
+python-multipart==0.0.9 # Form verilerini ve dosya yüklemelerini işlemek için kullanılır.
+SQLAlchemy==2.0.32 # SQL veritabanlarıyla etkileşimde bulunmak için kullanılan güçlü ve esnek bir Object-Relational Mapping (ORM) kütüphanesidir.
+uvicorn==0.30.6 # FastAPI gibi ASGI uyumlu uygulamalar için hızlı bir ASGI sunucusudur.
+passlib==1.7.4 # Parola yönetimi ve şifreleme işlemleri için kullanılır.
+pytest==8.3.2 # Python için yaygın bir test framework'üdür. Otomatik testler yazmak ve çalıştırmak için kullanılır.
+httpx==0.27.2 # HTTP istemcisi, FastAPI ile asenkron HTTP istekleri göndermek için kullanılır.
+pytest-asyncio==0.24.0 # pytest framework'ü ile asenkron testler yazmayı sağlar.
+aiofiles==24.1.0 # Asenkron dosya işlemleri yapmaya yarayan bir kütüphanedir.
+jinja2==3.1.4 # HTML şablonlarını oluşturmak ve sunmak için kullanılan bir şablon motorudur.
+langchain==0.2.15 # Doğal dil işleme (NLP) ile ilgili çeşitli işlevleri kolaylaştıran bir kütüphanedir.
+python-dotenv==1.0.1 # .env dosyasındaki çevre değişkenlerini projeye dahil etmek için kullanılır.
+google-generativeai==0.7.2 # Google'ın generatif yapay zeka araçlarına erişim sağlamak için kullanılır.
+langchain-google-genai==1.0.10 # Google'ın yapay zeka servisleri ile LangChain entegrasyonunu sağlar.
+markdown==3.7 # Markdown metinlerini HTML'ye dönüştürür.
+bs4==0.0.2 # BeautifulSoup kütüphanesi ile HTML ve XML belgelerinden veri çekmek için kullanılır.
+alembic==1.13.2 # Migration yani göç işlemi için kullanmam gereken kütüphane.
