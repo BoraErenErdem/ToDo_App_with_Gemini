@@ -1,0 +1,1 @@
+I built a To-Do App project using FastAPI. In this project, I integrated Google's generative AI, Gemini, to generate descriptions for the To-Do titles entered by users and to plan these descriptions step by step. Then, I created a simple interface using pre-made HTML and CSS. After that, I practiced deploying the project live using Docker.
