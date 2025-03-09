@@ -4,7 +4,7 @@ from fastapi import APIRouter, Depends, HTTPException, Request
 from pydantic import BaseModel, Field
 from ..models import User
 from passlib.context import CryptContext # bu şifreleme yapmak için oluşturulmuş kütüphanedir
-from database import SessionLocal
+from ..database import SessionLocal # Erişebilmek için 2 tane nokta koydum
 from typing import Annotated
 from sqlalchemy.orm import Session
 from starlette import status
